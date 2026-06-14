@@ -408,7 +408,9 @@ footer a:hover{
 
   .story-grid,
   .cards,
-  .gallery{
+  .gallery,
+  .details-cards,
+  .location-cards{
     grid-template-columns:1fr;
   }
 
