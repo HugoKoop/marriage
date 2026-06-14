@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Nele & Lukas Hochzeit//DE
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:hochzeit-nele-lukas-20270612@example.com
+DTSTAMP:20260513T120000Z
+DTSTART:20270612T120000Z
+DTEND:20270612T220000Z
+SUMMARY:Hochzeit Nele & Lukas
+DESCRIPTION:Wir freuen uns auf eure Teilnahme an unserer Hochzeit.
+LOCATION:Hotel Landhaus Wachtelhof\, Gerberstraße 6\, 27356 Rotenburg (Wümme)
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Erinnerung: Hochzeit Nele & Lukas morgen
+END:VALARM
+END:VEVENT
+END:VCALENDAR
