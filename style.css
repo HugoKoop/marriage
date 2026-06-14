@@ -53,7 +53,7 @@ h1,h2,h3{
 }
 
 h2{
-  font-size:70px;
+  font-size:clamp(42px, 7vw, 70px);
   line-height:1.1;
   margin-bottom:30px;
   color:var(--dark);
@@ -134,7 +134,7 @@ h2{
 }
 
 .hero h1{
-  font-size:120px;
+  font-size:clamp(64px, 10vw, 120px);
   line-height:1;
 }
 
@@ -405,14 +405,6 @@ footer a:hover{
 }
 
 @media(max-width:900px){
-
-  .hero h1{
-    font-size:70px;
-  }
-
-  h2{
-    font-size:48px;
-  }
 
   .story-grid,
   .cards,
