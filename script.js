@@ -56,6 +56,18 @@ window.addEventListener("scroll", () => {
 
   });
 
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+  if (window.pageYOffset > 300) {
+    scrollTopBtn.classList.add("show");
+  } else {
+    scrollTopBtn.classList.remove("show");
+  }
+
+});
+
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+scrollTopBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 window.dispatchEvent(new Event("scroll"));
