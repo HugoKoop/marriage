@@ -411,15 +411,15 @@ footer a:hover{
 .fade-up{
   opacity:0;
   transform:translateY(60px);
-  transition:1.2s ease;
+  transition:1.3s ease;
 }
 
 .reveal-left{
-  transform:translateX(-100px);
+  transform:translateX(-80px);
 }
 
 .reveal-right{
-  transform:translateX(100px);
+  transform:translateX(80px);
 }
 
 .active{
