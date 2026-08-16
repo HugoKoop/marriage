@@ -208,7 +208,7 @@ h2{
   transform:translateY(0);
 }
 
-.countdown, .dresscode, .rsvp{
+.countdown, .dresscode, .presents{
   display:flex;
   justify-content:center;
   gap:40px;
@@ -218,7 +218,7 @@ h2{
   text-align:center;
 }
 
-.countdown h2, .dresscode h2, .rsvp h2{
+.countdown h2, .dresscode h2, .presents h2{
   color:white;
 }
 
@@ -369,7 +369,7 @@ h2{
   color:var(--gold);
 }
 
-.presents{
+.food, .presents, .rsvp{
   text-align:center;
 }
 
@@ -393,12 +393,12 @@ footer a:hover{
   text-align:center;
 }
 
-.location .btn, .imprint .btn{
+.location .btn, .rsvp .btn, .imprint .btn{
   border:1px solid var(--dark);
   color:var(--dark);
 }
 
-.location .btn:hover, .imprint .btn:hover{
+.location .btn:hover, .rsvp .btn:hover, .imprint .btn:hover{
   border:1px solid var(--gold);
   background:var(--gold);
   color:white;
